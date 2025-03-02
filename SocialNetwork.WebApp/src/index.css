@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+/* FONT FOR STORY */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+DE+Grund:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playwrite+DE+Grund:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playwrite+DE+Grund:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+:root {
+    font-family: 'Nunito', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-modal .ant-modal-close {
+    display: none;
+}
+
+.scrollbar-w-2::-webkit-scrollbar {
+    width: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scrollbar-h-4::-webkit-scrollbar {
+    height: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #e8eaec;
+    border-radius: 1000px;
+}
+
+.highlight {
+    background-color: green;  /* Màu nền nhẹ giống Facebook */
+    color: #1d72b8;  /* Màu chữ khi highlight (màu xanh dương như Facebook) */
+    padding: 0.2em;
+    border-radius: 0.3em;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
